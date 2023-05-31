@@ -14,11 +14,14 @@ div.background{
     z-index: 2;
 }
 ul{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 30px; 
     list-style: none;
+    border: 1px solid black;
+    background-color: rgba(51, 94, 173, 1);
 }
 
 ul li a{
@@ -35,6 +38,7 @@ section{
     font-size: 40px;
 }
 
+
 section.problema{
     width: 100%;
     display: flex;
@@ -44,13 +48,13 @@ section.problema{
 }
 
 .problema h3{
-    font-size: 50px;
+    font-size: 40px;
     display: flex;
     justify-content: center;
 }
 
 .problema p{
-    font-size: 30px;
+    font-size: 25px;
     display: flex;
     text-align: center;
     width: 50%;
@@ -62,10 +66,11 @@ section.problema{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 40px;
 }
 
 .usar p{
-    font-size: 25px;
+    font-size: 23px;
     color: rgba(41, 40, 40, 1);
     display: flex;
     text-align: center;
@@ -85,11 +90,6 @@ img.lcd{
     height: 150px;
 }
 
-img.microservo{
-    width: 235px;
-    height: 200px;
-}
-
 section.objetivos{
     width: 100%;
     display: flex;
@@ -99,13 +99,13 @@ section.objetivos{
 }
 
 .objetivos h3{
-    font-size: 50px;
+    font-size: 40px;
     display: flex;
     justify-content: center;
 }
 
 .objetivos p{
-    font-size: 30px;
+    font-size: 25px;
     display: flex;
     text-align: center;
     width: 50%;
@@ -120,13 +120,13 @@ section.publico{
 }
 
 .publico h3{
-    font-size: 50px;
+    font-size: 40px;
     display: flex;
     justify-content: center;
 }
 
 .publico p{
-    font-size: 30px;
+    font-size: 25px;
     display: flex;
     text-align: center;
     width: 50%;
@@ -141,13 +141,13 @@ section.beneficio{
 }
 
 .beneficio h3{
-    font-size: 50px;
+    font-size: 40px;
     display: flex;
     justify-content: center;
 }
 
 .beneficio p{
-    font-size: 30px;
+    font-size: 25px;
     display: flex;
     text-align: center;
     width: 50%;
@@ -162,16 +162,35 @@ section.diadia{
 }
 
 .diadia h3{
-    font-size: 50px;
+    font-size: 40px;
     display: flex;
     justify-content: center;
 }
 
 .diadia p{
-    font-size: 30px;
+    font-size: 25px;
     display: flex;
     text-align: center;
     width: 50%;
+}
+
+
+.up {
+    display: flex;
+    position: fixed;
+    z-index: 2;
+    align-items: flex-end;
+    justify-content: flex-start;
+    left: 97%; 
+    bottom: 10px;
+}
+
+.up img{
+    width: 40px;
+    height: 40px;
+    border: 2.5px solid black;
+    padding: 3px;
+    border-radius: 100%;
 }
 
 .container{

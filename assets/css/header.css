@@ -3,6 +3,30 @@ header{
     width: 100%;
     height: 140px;
     background-color: rgba(51, 94, 173, 0.67);
+    align-items: center;
+    justify-content: center;
+}
+
+header .NavHeader{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    font-size: 40px;
+    z-index: 1;
+}
+
+.NavHeader a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    transition: .7s;
+    width: 5%;
+}
+
+.NavHeader a:hover{
+    color: aliceblue;
 }
 
 header a{
