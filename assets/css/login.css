@@ -1,0 +1,85 @@
+body{
+    overflow-x: hidden;
+    background-color: rgba(51, 94, 173, 0.38);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    font-size: 250px;
+    z-index: 1;
+}
+
+.cloud1{
+    top: -20px;
+    animation: animationCloud 20s linear infinite;
+}
+
+.cloud2{
+    animation: animationCloud2 20s linear infinite;
+}
+
+.cloud3{
+    animation: animationCloud2 30s linear infinite;
+}
+
+
+.container h1{
+    color: black;
+    font-size: 40px;
+    text-decoration: underline;
+    position: absolute;
+    top: 5%;
+}
+
+.cadastro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 25px;
+    width: 35%;
+    height: 530px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 30px #e0e0e0;
+    font-size: 25px; 
+    font-weight: bold;
+    position: absolute;
+}
+
+.cadastro input{
+    width: 40%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 5px;
+}
+
+.submit{
+    border: 2px solid #fdfdfd;
+    border-radius: 70px;
+    color: white;
+    background-color: #063940;
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    transition: .7s;
+    padding: 10px;
+    cursor: pointer;
+}
+.submit:hover {
+    background-color: transparent;
+    color: #063940;
+    border: 2px solid #063940;
+}
+
+
+.erro, #senhaErro{
+    color: red;
+}
+

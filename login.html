@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="shortcut icon" href="./assets/img/logo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/keyframes.css">
+    <link rel="stylesheet" href="./assets/css/login.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Sprint 02</title>
+</head>
+<body>
+    <header id="header">
+        <a href="index.html">
+            <h1>Nome</h1>
+            <img src="./assets/img/icon.png" class="icon" alt="icon header">
+        </a>
+        <nav class="NavHeader">
+            <a href="./login.html">login</a>
+            <a href="./IA.html">IA</a>
+            <a href="./wiki.html">Wiki</a>
+        </nav>
+        <img src="./assets/img/grama.png" class="grama" alt="grama header">
+        <img src="./assets/img/grama.png" class="grama2" alt="grama header">
+        <img src="./assets/img/grama.png" class="grama3" alt="grama header">
+        <img src="./assets/img/sol lua.png" class="sollua" alt="Sol e lua">
+    </header>
+    <main>
+        <section class="container">
+            <i class="fa-solid fa-cloud cloud1" style="color: #b0b0b0;"></i>
+            <i class="fa-solid fa-cloud cloud2" style="color: #b0b0b0;"></i>
+            <i class="fa-solid fa-cloud cloud3" style="color: #b0b0b0;"></i>
+            <h1>Cadastro</h1>
+            <form class="cadastro">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" placeholder="Digite seu nome" name="nome">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Digite seu email" name="email">
+
+                <label for="telefone" id="telefone">Telefone:</label>
+                <input type="text" placeholder="Digite seu telefone" name="telefone" id="telefone">
+
+                <label for="senha" id="senha">Senha:</label>
+                <input type="password" placeholder="Digite sua senha" name="senha">
+   
+                <p class="erro"></p>
+                <p id="senhaErro"></p>
+                <button type="submit" class="submit">Cadastrar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div id="data">
+        </div>
+    </footer>
+
+<script src="./assets/js/login.js"></script>    
+</body>
+</html>
