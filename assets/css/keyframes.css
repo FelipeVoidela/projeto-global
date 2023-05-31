@@ -1,0 +1,73 @@
+@keyframes animationCloud {
+    0% {
+        transform: translateX(-60vw);
+    }
+    50% {
+        transform: translateX(60vw);
+    }
+    100% {
+        transform: translateX(-60vw);
+    }
+}
+
+@keyframes animationCloud2{
+    0% {
+        transform: translateX(60vw);
+    }
+    50% {
+        transform: translateX(-60vw);
+    }
+    100% {
+        transform: translateX(60vw);
+    }
+}
+
+@keyframes animationCloud3{
+    0% {
+        transform: translateX(60vw);
+    }
+    50% {
+        transform: translateX(-60vw);
+    }
+    100% {
+        transform: translateX(60vw);
+    }
+}
+
+@keyframes animationCloud4 {
+    0% {
+        transform: translateX(-60vw);
+    }
+    50% {
+        transform: translateX(60vw);
+    }
+    100% {
+        transform: translateX(-60vw);
+    }
+}
+
+@keyframes animationCloud5{
+    0% {
+        transform: translateX(60vw);
+    }
+    50% {
+        transform: translateX(-60vw);
+    }
+    100% {
+        transform: translateX(60vw);
+    }
+}
+
+@keyframes animationCloud6{
+    0% {
+        transform: translateX(60vw);
+    }
+    50% {
+        transform: translateX(-60vw);
+    }
+    100% {
+        transform: translateX(60vw);
+    }
+}
+
+

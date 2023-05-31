@@ -1,0 +1,12 @@
+.btn a {
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    transition: .7s;
+    color: black;
+}
+
+.btn a:hover {
+    background-color: transparent;
+    color: aliceblue;
+}

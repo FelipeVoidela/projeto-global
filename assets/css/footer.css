@@ -1,0 +1,14 @@
+footer{
+    width: 100%;
+    height: 140px;
+    border: 1px solid black;
+    background-color: rgba(51, 94, 173, 0.67);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer  div#data{
+    color: white;
+    font-size: 40px;
+}
